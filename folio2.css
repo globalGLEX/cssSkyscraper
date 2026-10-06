@@ -2,10 +2,8 @@ html {
     margin: 0;
 }
 body {
-    background: linear-gradient(to bottom, #e594fd,  #fdac5a 35%, #071c30);
-/*     background: #09ebd4; */
+    background: linear-gradient(to bottom, #e594fd,  #fdac5a 35%, #071c30);   
     color: aquamarine;
-    /* background-image:  url(bg.jpg); */
     font-family: "Oxanium", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -28,18 +26,15 @@ body {
     top: 0px;
     height: 100px;
     width: 200px;
-    /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
-  transform: rotateY(-25deg) translateZ(-50px) translatex(-210px) scale(0.7);
-  
+    transform: rotateY(-25deg) translateZ(-50px) translatex(-210px) scale(0.7);
     font-size: 2em;
-    /* background-color: rgba(255, 255, 255, 0.1); */
     position: fixed;
     display: flex;
     z-index: 1;
     color: #fff;
-  
-    
+      
 }
+
 #logo-txt1, #logo-txt2, #logo-txt3{
     color:white;
     text-shadow: 2px 2px 3px black;
@@ -49,14 +44,10 @@ body {
 .swrap {
     perspective: 450px;/*was 300*/
     perspective-origin: left 85%;
- 
-/*     background: linear-gradient(to bottom, #a551f3,  #f8c360 50%, #06131b 80%); */
-   /*  background: linear-gradient(to bottom, #06131b,  #f8c360 50%, #fff); */
-     width: 40%;
-     margin: 0 auto;
+    width: 40%;
+    margin: 0 auto;
     height: 1000px;
-    position: relative;
-    
+    position: relative;    
    
 }
 
@@ -64,17 +55,14 @@ body {
 .lightshow {
     background-color: transparent;
     margin-left: 0px;
-    
     top: 0;
     height: 700px;
     width: 400px;
-    /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
-  transform: rotateY(-25deg) translateZ(-100px) scale(0.7);
-  position: fixed;
-  animation: fadeInOut 1s 1;
+    transform: rotateY(-25deg) translateZ(-100px) scale(0.7);
+    position: fixed;
+    animation: fadeInOut 1s 1;
  
 }
-
 
 @media screen and (max-width: 800px){
     .swrap {
@@ -83,43 +71,33 @@ body {
 }
 @keyframes fadeInOut {
 
-	0% {
-	  
-	  opacity: 0.0;
-	  
+	0% {  
+	  opacity: 0.0;  
 	}
   
-	60% {
-	  
+	60% {  
 	  opacity: 0.10;
 	}
     
-    80% {
-	  
+    80% {  
 		opacity: 0.2;
 	  }
-    85% {
-	  
+    85% {  
 		opacity: 0.5;
 	  }
-	95% {
-	  
+	95% {  
 		opacity: 0.05;
 	  }
-	99% {
-	  
+	99% {  
 		opacity: 0.5;
 	}
-	
-
-	100% {
-	  
+	100% {  
 		opacity: 1;
 	  }
   }
 
  .shade {
-    background: linear-gradient(to bottom, #8f9999, #3d3d3d); /* #3b3b3b, #bead98 before */
+    background: linear-gradient(to bottom, #8f9999, #3d3d3d); 
     height: 1990px; 
     width: 400px;
     transform: rotateY(25deg) translateZ(-100px) scale(0.7);
@@ -130,16 +108,7 @@ body {
     opacity: 0.8;
     color: #fff;
 
- 
-
  }
- 
-
-/* @media screen and (max-width: 600px){
-    .shade {
-    display: block;
-    }
-} */
 
 .barLightL {
     width: 2%;
@@ -150,11 +119,10 @@ body {
     z-index: 15;
     animation-name: blink;
     animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    
-    
+    animation-iteration-count: infinite;    
 
 }
+
 .barLightR {
     width: 2%;
     background-color: #fd0404;
@@ -179,10 +147,9 @@ body {
     top: 0;
     height: 700px;
     width: 500px;
-    /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
-  transform: rotateY(-25deg) translateX(-100px) translateZ(-100px) scale(0.7);
-  position: fixed;
-  animation: fadeInOut 1s 1;
+    transform: rotateY(-25deg) translateX(-100px) translateZ(-100px) scale(0.7);
+    position: fixed;
+    animation: fadeInOut 1s 1;
 
 }
 
@@ -191,7 +158,6 @@ body {
     background-color: #888;
     height: 12px;
     opacity: 0.4;
-
    
 }
 .bar2 {
@@ -201,17 +167,13 @@ body {
 
 }
 
-
 @keyframes blink {
     0% { 
         background-color: #999;
-       /*  top: 50%;
-        left: 45%; */
     }
     30% { 
         background-color: red;
     }
-
     60% { 
         background-color: red;
     }
